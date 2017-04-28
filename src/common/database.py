@@ -22,3 +22,4 @@ class Database:
     def insert(collection, data):
         return Database.DATABASE[collection].insert(data)
 
+
